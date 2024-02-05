@@ -1,0 +1,141 @@
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    body{
+    background-color: #011;
+    display: flex;
+}
+.a{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 3px solid white;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.a img{
+    width: 100%; 
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.profile h2{
+    text-transform: capitalize;
+font-size: 16px;
+}
+.menu{
+    background-color: #123;
+    width: 50px;
+    height: 100vh;
+    padding: 25px;
+    overflow: hidden;
+    transition: 0.4s;
+} 
+.menu:hover{
+    width: 300px;
+}
+ul{
+    list-style: none;
+    position: relative;
+height: 94%;
+
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: 0.4s;
+}
+ul li a:hover , td:hover{
+    background-color: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.log-out a{
+    background-color: red;
+}
+ul li a i{
+    font-size: 30px;
+}
+.content{
+width: 100%;
+margin: 15px;
+
+}
+.title-info{
+    background-color:blue;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: #123;
+    height: 200px;
+    flex-grow: 1;
+    flex-basis: 200px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+}
+.data-info .box i{
+    font-size: 60px;
+}
+.data{
+    text-align: center;
+}
+.box:hover{
+    background-color:#ffffff55 ;
+}
+.data-info span{
+    font-size: 35px;
+}
+.box p{font-size: 27px;}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing: 9px;
+}
+th , td{
+    background-color: #123;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 20px;
+
+}
+th{
+    background-color: #0743e696;
+}
+.price , .count{
+    padding: 6px;
+    border-radius: 6px;
+}
+.price{
+    background-color: rgba(165, 32, 32, 0.753);
+}
+.count{
+    background-color: rgba(194, 168, 21, 0.705);
+    color: black;
+}
